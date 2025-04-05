@@ -50,11 +50,11 @@ python -m kangaroo_eyes
 ```
 === NETWORK RECONNAISSANCE TOOL ===
 
-[1] Set Target Domain  
-[2] DNS Enumeration  
-[3] Historical IP Lookup  
-[4] Port Scanning  
-[5] WHOIS Lookup  
+[1] Masukkan URL  
+[2] Rekaman DNS  
+[3] IP Historia  
+[4] Scan Port  
+[5] WHOIS bruh  
 [6] Exit
 ```
 
