@@ -11,10 +11,9 @@ from .const import API_TIMEOUT
 class NetworkScanner:
     def __init__(self):
         self.resolver = resolver.Resolver()
-        self.resolver.nameservers = ["8.8.8.8", "1.1.1.1"]  # Google and Cloudflare DNS
+        self.resolver.nameservers = ["8.8.8.8", "1.1.1.1"]  
 
     def dns_enum(self, domain: str) -> Dict[str, Union[str, List[str]]]:
-        """Resolve DNS A records with comprehensive error handling"""
         result = {
             "operation": "DNS Enumeration",
             "domain": domain,
@@ -55,7 +54,6 @@ class NetworkScanner:
         return result
 
     def port_scan(self, target: str, ports: str = '21,22,80,443,3389') -> Dict[str, Union[str, Dict]]:
-        """Scan ports using Nmap with improved result structure"""
         result = {
             "operation": "Port Scan",
             "target": target,
@@ -114,7 +112,6 @@ class NetworkScanner:
         return result
 
     def whois_lookup(self, domain: str) -> Dict[str, Union[str, Dict]]:
-        """Perform WHOIS lookup with enhanced data processing"""
         result = {
             "operation": "WHOIS Lookup",
             "domain": domain,
@@ -161,7 +158,6 @@ class NetworkScanner:
         return result
 
     def _is_valid_domain(self, domain: str) -> bool:
-        """Validate domain name format"""
         try:
             socket.gethostbyname(domain)
             return True
@@ -169,7 +165,6 @@ class NetworkScanner:
             return False
 
     def _is_valid_ip(self, ip: str) -> bool:
-        """Validate IP address format"""
         try:
             socket.inet_aton(ip)
             return True
