@@ -6,23 +6,11 @@ from .utils import get_api_key, loading_animation, print_color
 from .const import API_TIMEOUT
 
 class WhoisAPI:
-    """Class untuk handle WHOIS API requests"""
     
     BASE_URL = "https://www.whoisxmlapi.com/whoisserver/WhoisService"
     
     @staticmethod
     def get_historical_ips(domain: str) -> Dict[str, Union[str, Dict, List]]:
-        """
-        Mendapatkan historical IP records
-        Args:
-            domain: Domain target (contoh: 'google.com')
-        Returns:
-            Dictionary berisi:
-            - operation: Nama operasi
-            - domain: Domain target
-            - records: Data historis IP
-            - status: Status request
-        """
         result = {
             "operation": "Historical IP Lookup",
             "domain": domain,
@@ -118,5 +106,4 @@ class WhoisAPI:
         return {"error": "No IP data found in response structure"}
 
 def get_historical_ips(domain: str) -> Dict[str, Union[str, Dict, List]]:
-    """Fungsi utama yang dipanggil oleh CLI"""
     return WhoisAPI.get_historical_ips(domain)
