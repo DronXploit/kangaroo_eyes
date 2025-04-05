@@ -110,6 +110,7 @@ Kami menyambut kontribusi! Silakan:
 3. Commit perubahan (`git commit -am 'Tambahkan fitur baru'`)
 4. Push ke branch (`git push origin fitur-baru`)
 5. Buat Pull Request
+6. Jika hanya untuk recode merusak project, mending DM ane aje!
 
 ## 📜 Lisensi
 
