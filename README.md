@@ -30,6 +30,9 @@ venv\Scripts\activate     # Windows
 
 # Install dependencies
 pip install -e .
+
+# atau
+pip install -r requirements.txt
 ```
 
 ## 🚀 Cara Menggunakan
@@ -41,7 +44,7 @@ kangaroo-eyes
 
 Atau langsung via Python:
 ```bash
-python -m kangaroo_eyes
+python3 main.py
 ```
 
 ### Menu Utama
