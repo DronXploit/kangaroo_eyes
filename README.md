@@ -114,7 +114,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## ✉️ Kontak
 
-Author - [https://instagram.com/dronxploit](Follow me:Instagram)  
+Author - [https://instagram.com/dronxploit] (Follow me:Instagram)  
 Support me: [https://saweria.co/dronxploit] - [Saweria] 
 
 ---
