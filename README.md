@@ -1,7 +1,5 @@
 # 🦘 Kangaroo Eyes - Network Reconnaissance Tool
 
-![Kangaroo Eyes Banner](https://via.placeholder.com/800x200.png?text=Kangaroo+Eyes+-+Network+Reconnaissance+Tool)
-
 **Kangaroo Eyes** adalah alat rekayasa jaringan (network reconnaissance) berbasis Python yang dirancang untuk membantu profesional keamanan siber, administrator jaringan, dan pengembang dalam melakukan analisis infrastruktur jaringan dengan cepat dan efisien.
 
 ## 🌟 Fitur Utama
