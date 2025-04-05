@@ -68,7 +68,6 @@ class KangarooCLI:
             print_color(f"[{num}] {text}", 'warn')
 
     def run(self) -> None:
-        """Main execution loop"""
         results = get_historical_ips(self.target)
         display_results(results)
         while True:
