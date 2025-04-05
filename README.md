@@ -49,7 +49,7 @@ python3 main.py
 
 ### Menu Utama
 ```
-=== NETWORK RECONNAISSANCE TOOL ===
+=== KANGAROO EYES TOOL ===
 
 [1] Masukkan URL  
 [2] Rekaman DNS  
