@@ -4,15 +4,15 @@ setup(
     name="kangaroo_eyes",
     version="1.0.0",
     description="Network Reconnaissance Tool",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="dronXploit",
+    contact_email="instagram.com/dronxploit",
     packages=find_packages(),
     install_requires=[
         'colorama',
         'python-whois',
         'python-dotenv',
         'dnspython',
-        'python-nmap',  # Changed from 'nmap'
+        'python-nmap',  
         'requests'
     ],
     entry_points={
